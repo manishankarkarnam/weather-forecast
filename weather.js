@@ -54,5 +54,5 @@ async function fetchData() {
   }
 }
 
-
+fetchData()
     });
