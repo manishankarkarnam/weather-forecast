@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./weather.css">
+
+</head>
+<body>
+    <div class="main_block">
+        <div class="first_block">
+            <input class="input_data" type="text" placeholder="Enter city name">
+            <img class="search" src="./images/search.png" alt="search icon">
+        </div>
+        <div class="middle_block">
+            <img class="weather_img" src="./images/blank-removebg-preview.png" alt="weather condition image">
+            <h1 class="temp">---</h1>
+            <h1 class="city_name">City</h1>
+        </div>
+        <div class="last_block">
+            <div class="humidity">
+                <div>
+                    <img src="./images/humidity.png" alt="humidity image">
+                </div>
+                <div class="humidity_contents">
+                    <div class="humidity_value">
+                        <h1 class="humidityValue">--%</h1>
+                    </div>
+                    <div>
+                        <h1 id="a">Humidity</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="windspeed">
+                <div>
+                    <img src="./images/wind.png" alt="windspeed image">
+                </div>
+                <div class="windspeed_contents">
+                    <div class="windspeed_value">
+                        <h1 class="windspeedValue">-- km/h</h1>
+                    </div>
+                    <div>
+                        <h1 id="b">Wind Speed</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>@Karnam Manishankar</footer>
+    </div>
+
+    <script src="./weather.js"></script>
+</body>
+</html>
